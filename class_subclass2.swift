@@ -16,9 +16,9 @@ class AdimSayar{
     before and after setting a new value, we use willSet and didSet
 
     willSet{
-        Just before it has been set
+        Just while it has been set
     }
-    willSet{
+    didSet{
         worked after it has been set
     }
 */
