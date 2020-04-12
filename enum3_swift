@@ -1,0 +1,31 @@
+enum Suit{
+    case spades, hearts, diamonds, clubs
+    func SimpleDescription() -> String{
+        switch self {
+        case .spades:
+            return "spades"
+        case .hearts:
+            return "hearts"
+        case .diamonds:
+            return "diamonds"
+        case .clubs:
+            return "clubs"
+        
+        }
+        
+    }
+    func Color()->String{
+        switch self {
+        case .spades:
+            return "black"
+        case .clubs:
+            return "black"
+        default:
+            return "red"
+        }
+    }
+}
+
+let hearts = Suit.hearts
+let heartsDescription:String = hearts.SimpleDescription()
+let heartsColorInf:String = hearts.Color()
