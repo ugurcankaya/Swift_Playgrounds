@@ -84,5 +84,5 @@ print(triangle1.simpleDescription())
 let optionalSquare: square? = square(sideLength: 2.5, name: "optional square")
 let sideLength = optionalSquare?.sideLength
 
-//if the value before ? is nil, everything after the ? is ignored and the value of the whole expression is nil.
+//if the value before ? is nil everything after the ? is ignored and the value of the whole expression is nil.
 //Otherwise the optinal value is unwrapped, and everyting after the ? acts on the unwrapped value. In both cases, the value of the whole expression is an optinal value
